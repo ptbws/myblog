@@ -5,58 +5,16 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##ch1: introduction
-
-卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
+  <meta name="description" content="this is test">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2017/02/21/gps/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##ch1: introduction
-
-卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219054652436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219090813084?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219091308200?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219091143774?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219091508603?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219092320403?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219093423433?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170219093742316?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220051235318?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220051810730?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220071948347?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220072503599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220095844093?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220131503575?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220132344660?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220135930757?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220141119337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220141200463?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220141346028?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220141403182?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220141546792?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220155119879?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220155938517?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170220160910954?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221041344629?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221055630889?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221060301623?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221081424422?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221085822598?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221144013414?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221145331779?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221151126193?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221154347240?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221154716100?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170221155636869?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:updated_time" content="2017-02-21T08:59:51.899Z">
+<meta property="og:description" content="this is test">
+<meta property="og:updated_time" content="2017-02-22T07:57:17.961Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="##ch1: introduction
-
-卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
-<meta name="twitter:image" content="http://img.blog.csdn.net/20170219054652436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta name="twitter:description" content="this is test">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -94,9 +52,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -108,7 +66,7 @@
         <section id="main"><article id="post-gps" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/02/21/gps/" class="article-date">
-  <time datetime="2017-02-22T07:53:21.269Z" itemprop="datePublished">2017-02-21</time>
+  <time datetime="2017-02-22T07:57:17.993Z" itemprop="datePublished">2017-02-21</time>
 </a>
     
   </div>
@@ -117,132 +75,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##ch1: introduction</p>
-<ol>
-<li>卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪比。</li>
-</ol>
-<p>##ch2: basic gps concept</p>
-<ol>
-<li>GPS接收机如何决定user position？这是终极目标。</li>
-<li>找user position难点是：一、需要根据satellite constellation来解方程，但方程是non-linear的，直接求解比较困难；二、user clock inaccuracy. 用户时钟精度不够，导致的时钟漂移。</li>
-<li>结合上面两点，对non-linear的方程求解，是通过linearization and iteration求解。求解是在cartesian coordinate system, and then the result will be converted into a spherical coordinate system. </li>
-<li>Gps性能要求，10~30m rms error; real time;worldwide coverage, including the polar regions; tolerate interference, such as harmonics from narrowband signals; acuqusition should be in minutes not hours; can tolerate the inaccuracy of the user clock; antenna should be small.</li>
-<li>以上要求，导致了gps的载频是L band(1-2ghz).</li>
-<li>用GPS信号决定user position需要的卫星数：如果是一维的坐标，那么为了确定这个坐标，一颗卫星不能，需要两颗卫星；同理，确定二维坐标，两颗卫星会给出两个位置，所以需要３颗卫星才能唯一确定user position;　同样的，确定三维坐标，就需要４颗卫星提供的距离。这也好理解，如果要确定３维坐标，则把卫星信号到达的区域看成是一个以卫星位置为中心的球，也不是主观这样看成，而是这么看问题更接近真实的情况。那么两个球相交得到一个圆，再添加一个球，可以看成是这个球和之前两个球相交得到的圆之间再相交，得到两个交点，也就是三个球还是不能唯一确定相交的位置坐标，因此需要再增加一个球，才能确定两个交点中那一个才是user position.　一句话，卫星的数量需要比空间的维度多１才能唯一确定空间的位置！<br><img src="http://img.blog.csdn.net/20170219054652436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>现在继续讨论卫星的个数：如果一切理想的话，四颗卫星就可以确定三维坐标。但实际中，由于user clock inaccuracy，所以还需要一颗卫星来排除时钟的漂移导致的错误。因此，需要５颗卫星！但是，如果强行用4颗卫星的话，由于有时钟误差，计算结果有两个位置，一个close to the surface,一个在space,而在space的可以容易排除，因此也能用4颗，说得比较绕！下图就说明为啥是二次方程组了，为啥需要四颗卫星了，因为有四个未知数：xu,yu,zu, and bu(时钟误差)<br><img src="http://img.blog.csdn.net/20170219090813084?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>通常接受的卫星信号来自4~11颗，有两种方法，一种是全部使用，另一种是选用４颗，选用的标准是四颗卫星位置越独立越好，见Fig.2.8.所谓越独立，就是四个位置的连线组成的四边形面积越大越好，所以图(a)就不好，三个卫星在一条线，图(b)就好，能形成一个四边形！<br><img src="http://img.blog.csdn.net/20170219091308200?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br><img src="http://img.blog.csdn.net/20170219091143774?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>##ch3:satellite constellation</li>
-<li>上一章假设卫星的位置已知，这一章则讲如何找到卫星位置。</li>
-<li>一共２４颗gps卫星，在6个轨道运行，每个轨道4颗星。</li>
-<li>卫星的位置如下图：地球平均半径是6368km,卫星高度到地心距离26560km,所以一个gps卫星垂直地面发射信号距离为26560-6368=20192km，而发射信号覆盖地表最远距离则为25785km,也就是有距离差距，看下图，所以卫星天线的定向角度13.87度就够了，还算比较窄，同时注意，由于距离不同，信号衰减不同，导致有功率远近效应，到最远和最近的地方功率差2.1db,因此实际中，天线正对地面的发射功率相对低一些，以保证到地面各个位置的功率一样！<br><img src="http://img.blog.csdn.net/20170219091508603?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>多普勒效应：卫星速度3874m/s,对地面user的相对速度就是vd=vs*sin(beta)，最大的相对速度为929m/s.　最小就是0（当锤直的时候）最大的多普勒频移是4.9khz.也就是说多普勒的范围是-5khz~5khz。<br><img src="http://img.blog.csdn.net/20170219092320403?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>5.注意，多普勒的计算如下：多普勒频移和发射信号的载频有关系，成正比，下图中：fr就是信号频率，这里就是用的gps射频信号载频计算得到载频的多普勒频移；如果是对c/a code而言，多普勒影响就很小，因为c/a码的频率是1.023mhz,所以：只有3.2HZ。也就是说多普勒本质是一个相对概念。<br><img src="http://img.blog.csdn.net/20170219093423433?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br><img src="http://img.blog.csdn.net/20170219093742316?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>继续讨论多普勒的影响，假设地面的接收机是高速运动，那么对c/a码而言最大的多普勒就是6.4hz. 6.4hz在物理上意味着什么？如果c/a码的采样率是5mhz,那么每个码片长200ns, tracking的任务就是让本地产生的c/a码和接收到的信号对齐，或者至少让时间差距小于半个码片，100ns。由于doppler的原因，6.4hz就是说1秒导致6.4次变化，对c/a码来说一次变化就是一个1.023mhz的倒数(977.5ns)的长度，所以：每经过1/6.4＝156.3ms的时间就会漂移977.5ns，或者说没16ms就漂移100ns.也就是说，如果采样率5mhz,那么我们每隔16ms就要检查是否对齐，否则就跟踪不上了！</li>
-<li>研究多普勒，除了看绝对值，还看变化率，也就是高阶函数，才算对这个多普勒认识清楚。比如，多普勒平均变化率，如果只考虑卫星运动，那么这个平均值只有0.54hz/s；由于变化率不是均匀的，有的角度变化率大，有的角度变化率小，那么还需要找最大的变化率，就是0.936hz/s，可以看出最大的变化率比均值大很多。</li>
-<li>上面是假设接收机stationary，如果接收机是在aircraft上，那么加速度很大的时候，例如：1g($9.8m/s^2$), 那么最大的多普勒变化率就高达51.5hz/s,如果加速度再大一些，例如7g,那么这个最大的多普勒变化率就是360hz/s,也就是说由user运动导致的多普勒远远大于卫星运动导致的多普勒。以360hz/s为例，这个360hz/s表示每一秒变化360hz,　如果接收机的载频的tracking loop的带宽是1hz的数量级，表示1秒才更新一次，但是由于360hz/s的多普勒，表示1秒会变化360次，即：相当于每2.8ms载波就变化一次，所以每2.8ms就需要这个tracking loop　update 载波的信息。但这就困难了，由于噪声，2.8ms这么短时间做出的判决就很大的false概率。</li>
-<li>kelpler’s laws:开普勒三定律。(以后在细看！)<br>##ch4:earth-centered,earth-fixed coordinate system</li>
-<li>坐标变换，考虑地球的self-rotation.（以后再看！）<br>##ch5: GPS C/A code signal structure</li>
-<li>上面几章介绍了如何接榫user position，但计算user position需要卫星的position and pseudorange. 而卫星的位置的计算就必须依靠卫星传送的信号。</li>
-<li>卫星信号有两种：course/acquisition (c/a) code, and precision code. 字面上，c/a code就是低精度的用于民用的，而p码是高精度的，用于军用，而且接受p码需要有classified code,不像c/a code是明文传送，所以，后面都重点讨论c/a码。</li>
-<li>传送频率：gps信号的射频载波有两个: 都是在1GHZ~2GHZ间，同时都是时钟10.23的整数倍，这应该是方便倍频！其中，L1用来传送c/a和p码的，而L2值用来传送p码。<br><img src="http://img.blog.csdn.net/20170220051235318?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>下面公式就表示了L1用qpsk同时传送p码和c/a码。由于卫星高度为2万公里，所以信号强度很微弱，-130dbm左右，所以用c/a码的作用之一就是得到扩频码的扩频增益！<br><img src="http://img.blog.csdn.net/20170220051810730?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>cdma信号：这个比较熟悉。这里复习一下：如果码片的速率高于信号速率，就是扩频系统；如果码片率是1mhz,那么由于码片翻转在时域上是一个矩形窗口，则在频率上就是一个sinc函数，而且main lobe的带宽就是2mhz. </li>
-<li>p码的码片速率是10.23mhz,所以根据上文介绍，频谱带宽就是20.46mhz,码片length就是1/10.23=97.8ns,p码是PRN码(pseudorandom noise code),周期一共有38周（超过半年才能循环一次），实际中是每一周就复位一次。</li>
-<li>c/a码的码片速率是1.023mhz,所以带宽就是2.046mhz,每个码片length是977.5ns. c/a码周期就短，只有1023个码片，因此一个周期就是1ms。c/a码本质就是gold码。</li>
-<li>gps帧结构：卫星导航数据率是50hz,那么一个bit需要20ms，因此一个bit就对应20个c/a码周期，算很长了；30个导航数据bit构成一个word; 10个word又构成一个subframe（６秒）；5个subframe构成一个page（３０秒）；25个page构成一个superframe. </li>
-<li>c/a码产生：由两个1023-PRN 序列产生器产生的gold码。每个序列发生器都是由10比特的移位寄存器组成。</li>
-<li>卫星的identification(id)就是由序列的相位决定的，一共有37个独立的相位位置，其中32个用来c/a码，当时只有24颗卫星在轨，所以只分配了24个相位。如下图：不同的c/a码从G2不同的抽头输出，这个要仔细研究gold码，看为什么不同抽头的相位独立，<br><img src="http://img.blog.csdn.net/20170220071948347?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>c/a码性质：说c/a码性质，其实说的是gold码性质，或者是伪随机码性质：相关性。理想的c/a码需要有强的自相关性，几乎为0的互相关性。其中，自相关性是说同一颗卫星发出的c/a码不同相位的序列相关；互相关性是指不同的卫星发出的c/a码的不同相位序列相关。下图，就说明了c/a码良好的相关性能。<br><img src="http://img.blog.csdn.net/20170220072503599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>11.　帧数据介绍：（5.9~5.17以后再看！）<br>##ch6: receiver hardware considerations</li>
-<li>考虑硬件。天线，采样，中频等。（之后再看！）<br>##ch7: Acquisition of GPS C/A code signals</li>
-<li>捕获，就是检测是否有c/a信号纯在，然后把获取的信息pass to tracking procedure. 前面提到过，捕获需要搜索+/-10khz的频率范围，因为有多普勒频偏存在。<strong>问题是: 捕获的带宽是指什么？由谁决定的？</strong>书上说，窄带的捕获带宽要用很多步骤才能cover +/-10khz的范围，比较time consuming;而宽带的呢，就存在poor sensitivity的问题，但是由于tracking的带宽很窄，可以保证high sensitivity。所以，还是需要用wide bandwidth for searching.</li>
-<li>本章会讨论三种捕获的方法：传统的，基于fft, delay and multiplication的。传统的和fft效果一样，fft可以降低运算复杂度；delay and multiplication的速度更快，但是会lower snr，可以看成是一个速度和性能的tradeoff.</li>
-<li>所谓捕获，就是去找到c/a code的开始的相位，同时需要确定输入信号的载频。这个载频是考虑了doppler effect的，每颗卫星都不同。这两个参数就会pass到tracking procedure. </li>
-<li>本章后面的讨论是基于IF=21.25MHZ, 采样率是5MHZ,因此基带信号的中心频率就是1.25mhz.　关于中频和采样率的问题需要看第6章的内容。</li>
-<li>所谓传统的方法：就是用硬件来对每个卫星的c/a码在时域捕获，这个方法就不如用软件的方法，可以保存数据，然后在数字域处理。考虑这本书是写于90年代，估计硬件手段很有限，比如用fpga一样可以来做信号处理，速度还快！</li>
-<li>捕获，理论上是数据时间越长，信噪比越高。但两个因素限制了数据长度：一是该数据中是否有navigation data transition;另一个是c/a码的doppler effect. 由于navigation data速率是50hz,也就是每20ms一次数据相位的transition。考虑到这个transition是在时域上和c/a码相乘，所以频域就是卷积运算，或者说是频域就是调制，把c/a码左右移位50hz再相加，也就是说频谱展宽了，由于有混跌，因此性能下降了。那怎么办呢？在时域上，每20ms才变一次，所以捕获的时间设为10ms,这是因为，连续的两次捕获最多一次transition, 也就是说连续两次的捕获中有一次是不受navigation data transition影响的。</li>
-<li>由于c/a码的周期是1023码片，时长1ms,所以1ms的数据就可以包含c/a码的全部信息，理论上，1ms的数据就可以用来跟踪，但是如果这1ms中出现了navigation data transition,那么信噪比就会衰减很大，因此为了保险起见，用两个连续的1ms数据就可以做捕获了。在工程中，用10ms来做捕获，那么连续两个10ms中也最多一个transition.</li>
-<li>上面说c/a码的多普勒会影响捕获的时长。由于多普勒，数据不能完全对齐，如果有half chip off,那么相关峰就从理想的1衰减到0.5,因此就是6db的幅度衰减。假设：码片速率1.023mhz,最大多普勒是6.4hz,因此漂移一个码片就需要1/6.4=156ms,漂移半个码片就是78ms,也就是说捕获时长必须低于78ms. 上面已经讨论了，10ms最理想，因此10ms也满足多普勒的要求。</li>
-<li>frequency steps in acquisition:　这一章开始就讨论捕获的带宽的问题，说带宽如果太小，那么就需要很多步骤才能cover载波的+/-10khz的频偏；带宽太大，又出现精度不够的问题。现在稍微理解了捕获带宽的物理意义：就是每1秒捕获的次数，是不是很简单，按照上面的讨论，每10ms的数据做一次捕获，那捕获带宽就是100hz。这个就是前文提到的捕获带宽太小的情况，所以需要很多steps才能cover 10khz的带宽。<strong>为什么呢？怎么cover的？</strong></li>
-<li>C/A码的乘积和FFT: c/a码捕获就是找到c/a码的初始相位，然后用这个c/a码去乘以射频信号，得到射频连续信号，从而得到载频值，如下图：图中最上面的信号是连续输入的c/a码被射频信号调制的波形；中间的图是捕获中得到的c/a码初始相位，是本地产生的；下面图表示的用本地的c/a码乘以输入的c/a coded input signal,即：把c/a的影响从载波里strip out最后就得到纯的载波信号，这就可以求载频的频率。<br><img src="http://img.blog.csdn.net/20170220095844093?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>一旦得到上图的载波，就可以用fft来求频率。如果数据长度是1ms,那么fft的分辨率就是1khz。为什么呢？这样好理解啊。1ms的时间，可以表示的周期最长的信号也是1ms,也就是说如果有一个信号周期是2ms,那么在1ms的时间内只有半个周期，因此能表示的最小频率就是1/1ms=1khz,这也是fft的分辨率，所谓分辨率就是最小可以表示的频率。</li>
-<li>继续讨论FFT找载波频率。如果采样率5mhz,那么在1ms中就包含了5000个采样点，因此就需要5000-point FFT。由于是实数输入，那么这5000个FFT就是complex conjungate的，即：前面2500个点就包含了所有的信息。由于频率分辨率是1khz,那么2500个点就可以表示2.5mhz的信息，这么看fft还是线性的，如果有的频率变化快，有的频率变化慢，这就不行了。突然感觉自己以前对dsp的理解太low了，只知道记公式，公式是美丽，但是物理意义才更美丽，这是题外话！刚才说可以表示2.5mhz的信息，但是我们起始关心的只是多普勒频偏，而不是整个载频，也就是20khz的范围，那么显然2.5mhz就太多了，因此：直接的方法就是只需要计算21个输出值，用dft即可。这样做的话，可以节省大量时间和能量，比如：输入的c/a码和本地的c/a码在1ms内需要做乘法，由于有5000个采样点，每移动一次就要做5000次乘法和５5000-point FFT，所以需要做5000×5000次FFT，这么看数据量就太大了，而如果只做21-point DFT,那么就只需要5000*21次DFT。</li>
-<li>用上面的dft的方法，由于需要用本地产生的c/a码和输入的c/a码每移动一位都做乘法和fft,然后找频率的超过pre-defined threshold中的最大值，如果找到最大值，就可以把现在的本地的c/a码的位置记录下来，这就是c/a码的开头。而且，由于码片的length是200ns,也就是说找到的c/a码的开头有200ns的分辨率，或者说200ns的误差，而且由于整个data的长度是1ms,所以多普勒频率的分辨率就是1khz. 这个思路可以很容易generalize: 现在我们考虑10ms的data，那么由于采样率不变，所以时间分辨率还是200ns,但是由于10ms和1ms相比，就允许周期更长的信号出现，即:最多可以有10ms为周期的信号，因此频率分辨率就是100hz,能得到这个100hz的是要付出很大代价的，因为现在我们需要做50,000-pointFFT, 而之前只需要5000-point FFT，而fft长度增加10倍，复杂度增加会超过10倍，所以整个复杂度不是线性增加的！</li>
-<li>time domain correlation：这才是第二种方法，除了用fft来做，还可以用时域相关的方法来做。这个方法本地产生的c/a码不在是简单的c/a码，还把RF信号加入在里面。由于采样后的信号的载波是1.25mhz,那么考虑频偏在+/-10khz,那么就有21中可能的RF信号可能性，所以本地产生的信号就是如下：<br><img src="http://img.blog.csdn.net/20170220131503575?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>其中，Cs代表24颗卫星中某一颗的c/a码，注意：这里都是认为已知卫星的c/a码，只是不知道初始相位，fi代表不同的射频频率，如：1250-10,1250-9,1250-8,…,1250+10khz，也就是这些不同的频率是考虑了多普勒。产生了这个本地信号后，仍然需要数字化成5mhz的数据，即：每1ms仍然是5000-point,这些点和输入数据相关，所谓相关，就是乘累加，如果本地的c/a码包含正确的c/a码和正确的频率，那么相关结果就会成高，产生一个峰值。如下图：<br><img src="http://img.blog.csdn.net/20170220132344660?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>这个过程是这样的，每200ns,输入的数据就多收到一个，就把现在的5000个输入的复数和local的5000个复数做相关得到的一个复数，把这个复数的幅度计算出来就代表现在的相关结果。所以，5000个数据输入，就需要做5000次的这样的乘法，也得到5000个幅度值，那么21路并行的处理，就得到21*5000个幅度值，选取最大并cross the threshold的值，此时对应的fi就是接收到的信号的fi，此时的数据的起始相位就是Cs的相位。相位这个，怎么理解？由于已知24颗卫星的c/a码初始相位，所以上面的Cs的初始相位都是已知的固定的，所以需要移动接收到的射频数据和本地的c/a码做所有可能的尝试，确实很傻，不过1ms内最多尝试5000次，总能试出来找到正确的相位，如果相关出现峰值，就说明此时接收到的信号的c/a码的相位和本地的对齐，且接收到的c/a码的初始相位就是我们实验用的Cs的初始相位。</li>
-<li>继续讨论time domain correlation.这个方法本质就是做dft，和fft相比，这个方法更快，因为只需要遍历所有可能的相位和所有可能的频率偏移的组合，按照边界说，这个方法就是先找到解空间的具体的边界，然后遍历每一个可能的解，而之前基于FFT的方法则是盲计算，导致计算复杂度很高，所以好的方法总是搞清楚问题的边界，就在边界内求解！</li>
-<li>由于时域相关的方法得到的结果频率分辨率只有1khz,因为只用1ms的数据做dft,所以只有1khz.书上说，这个频率还不够精确，不能直接送到tracking program，还需要提高进度，如何进一步提高进度？在section 7.10讨论。拭目以待！</li>
-<li>继续讨论捕获。现在介绍关于相关的一些基本知识：circular convolution and circular correlation. 圆周卷积和圆周相关。在连续时间域，有如下关系：<br>　<img src="http://img.blog.csdn.net/20170220135930757?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>　也就是说：时域卷积，频率相称；频域卷积，时域就相称。你看，为啥叫卷积，因为还是个积，只是换了一个域，或者说换了一个观察问题的角度。这个性质在离散时间域也有类似的，但又不一样，不是线性卷积，而是圆周卷积。相关和卷积也很相似，如下图：<br> <img src="http://img.blog.csdn.net/20170220141119337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> <img src="http://img.blog.csdn.net/20170220141200463?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> <img src="http://img.blog.csdn.net/20170220141346028?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> <img src="http://img.blog.csdn.net/20170220141403182?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> 稍微一看，就知道，卷积和相关就差一个符号，所以在频域也很相似。再看下面公式，有个疑问，即使下面成立，也不能认为相位关系也是这样的吧，因为下面公式只表示了幅度关系。<br> <img src="http://img.blog.csdn.net/20170220141546792?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>现在利用circular correlation来完成前面的time-domain相关。很简单：<ul>
-<li>根据上面的公式，把输入的1ms的5000点数据当成x[n],用FFT得到X(k)，然后得到$X(k)^*$</li>
-<li>在产生local的射频信号，一共21个可能的频率值，前文已经讨论过，然后把这21路信号做FFT，这里这个信号就相当于上面公式中的H(k)</li>
-<li>在频域相乘，根据对偶原理，频域乘，等效时域卷积，由于我们使用的不是$X(k)$，而是$X(k)^<em>$，所以就等效与时域的相关。但是，这里我们reap FFT的efficiency,而不用像前面计算时域相关需要5000</em>5000次乘法，做了FFT，只需要5000*21次乘法,而FFT的复杂度只有o(nlgn)。</li>
-<li>相乘后得到频率值，还需要用iFFT都转换成时域值，并求最值，根据最值得到相应的频偏和c/a相位。</li>
-</ul>
-</li>
-<li>section 7.9没细看，下次再看！</li>
-<li>前面分别介绍了基于fft和基于time-domain correlation的方法，在time-domain correlation中又介绍了用circular correlation的概念，利用FFT加快运算速度。这一节将介绍一个新的方法，delay and multiplication. <ul>
-<li>这个方法的目的是：首先eliminate the frequency information in the input signal, 然后问题就变成了去找c/a码开始的位置，等c/a码开始的位置找到了，频率就可以通过dft或fft来计算。或者说，这个方法就是decouple解空间。前面介绍的时候，我就说了time-domain correlation的方法就是首先明确了解空间是5000点的时域位移和21个不同的频率值，这样就组合重21*5000个可能性，这种方法由于同时explore时间和频率空间，也将同时得到c/a码起始值和载频值的解，所以导致复杂度高。因此，有人就提出先消除频率信息的影响，先找到c/a开头，然后再找载频。这样复杂度大大降低，因为只需要做5000次相关，然后就是用载频做dft.两个操作从并行变成了顺序操作！</li>
-<li>delay  and multiplication：顾名思义，就是把接收到的信号先delay一段时间，然后在把两个信号相乘，如下图。有意思的是，正是相乘把频率成分给消除了，你看(7-15)公式里，Cn(t)变成了一个新的gold码，但仍然是gold码，而且周期和初始位置都和原来的相等，这个性质真是没想到，最重要的是，两个序列相乘后，就立刻消除了频率成分，变成了一个新的gold码。需要注意的是，这个码有一个常系数，$e^{2\pi f \tau}$.对这个delay的时间$\tau$有一定限制。<br><img src="http://img.blog.csdn.net/20170220155119879?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>继续讨论delay and multiplication的方法，为了说明问题，下面截图就说明了delay如何选择的问题，把复数信号换成实信号，指数就变成cos()，在(7-19)中，高频可以滤波，最后剩下$cos(2\pi f \tau)$,因此为了使得到的新的gold 码幅度够大，信噪比够高，需要让这个$|cos(2\pi f \tau)|$接近１。好在这个问题很实际，f随不知道，但f的范围还是知道的，1250+/-10khz.所以，当f=1250khz,$\tau=400ns$,也就是delay两个samples就可以满足条件；当f=1250+10khz,带入计算，$|cos(2\pi f \tau)|=0.9997$也很接近1.所以2个sample delay就可以首先消除频率的影响，果然很简单高效！<br><img src="http://img.blog.csdn.net/20170220155938517?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>现在来看这种delay乘的方法主要问题：由于上面表达式只表示了信号部分，没有表示噪声，实际上，噪声也是要相乘的，所以结果是噪声和噪声相乘，引入更多的噪声，也就是noise floor increase,信噪比就下降！因此，不能只依靠1ms的数据，在实际中，需要更长的数据。</li>
-<li>还有一个特性，如下图。就是delay相乘后的新code对navigation data transition不再敏感，你看新的code只有2个bit受到影响，也就是2/5000的数据受到影响，因此影响可以忽略了。因此，不再受到之前讨论的10ms数据长度的限制了，由于navigation data transition对新的code的影响变小，因此这个方法可以做到精度更高。<br><img src="http://img.blog.csdn.net/20170220160910954?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-</ul>
-</li>
-<li>理论上，1ms的数据就包含了完整的信息，就可以用来得到c/a码的初始相位和载波多普勒频偏。但实际中，都会通过采集处理长时间的信息来增加信号snr，提高频率分辨率等。书上介绍了两种方式：<ul>
-<li>第一种是non-coherent的，这个就简单粗暴了。如果用2ms的数据，那么对每1ms分别处理，然后再求和。但是怎么相加？把谁和谁相加？这个没讲清楚，就说这么一加，信号功率变成两倍，但噪声功率只变成$\sqrt2$,所以最后snr还是增加了$\sqrt2$,即：1.5dB。我个人猜测是，等两个1ms都找到了c/a开始，然后despread后，再相加。</li>
-<li>第二种是，coherent处理。这个很有意思！用更长的数据可以提高频率分辨率，我们已经知道，但更长数据更重要是可以提高信噪比，这个就不容易理解了。书上解释说，因为更长的数据对应更高的频率分辨率，或者更长的数据，相当于低通滤波器，当这个低通只会让噪声功率减少，信号功率不会变化，因为信号经过despread后的带宽比频率分辨率肯定还要窄。因为噪声的带宽减少，噪声功率也就减少，所以snr就提高。举例：如果2ms的长度，snr就提高3dB</li>
-<li>现在考虑，如果从1ms变成10ms的data，就不能直接用fft的方法来做了，因为10ms的数据有50000个数据点，做50000-point的FFT就比较不现实了！好在方法总是有的：可以做更少点的fft。始终记住我们的目标是找到多普勒频偏，即：+/-10khz,但是我们前面都是处理的1250+/-10khz这样的数据，这里再次在这里做文章，之前产生的local信号有21种可能，从1250-10,1250-9,…1250+10khz.然后同时乘了相关求最大值。这里变化的地方是，只用一个载波1250khz来乘以输入的信号，那么就得到一个低频信号+/-10khz，还有一个镜像的高频，假设高频可以滤波，那么就一个20khz的基带信号了，面对这个信号，我们就不用这么高的采样率了，我们不用之前的5mhz采样，用50khz就够了，因为50khz&gt;2*20khz，满足nyquist定律。由于数据已经用5mhz采样了，那么我们直接对每100个相临的数据求平均即可，这样还可以滤除高频镜像信号。</li>
-<li>把以上方法描述如下：第一步，把10ms的输入信号和本地产生的复数的1.25mhz的信号(digitized at 5mhz)相乘，输出的信号最大频率就是10khz，目前我们一共得到50000个点；第二步，把第一步的输出和c/a码点对点相乘，得到50000个点；第三步，则是每100个数据求和平均，这个过程相当于低通滤波，因此在高频2.5mhz附近的镜像就被滤除。补充一句，所谓求平均后，时间分辨率就变成了200ns<em>100=20us,所以最大的频率就是1/(20</em>2us)=25khz,因此高频自然就不能表示了；第四步，做500-point的FFT，找出最大的频率幅度；第五步，由于是用c/a信号和20khz的低频信号乘，所以需要移位5000次尝试所有可能，所以最终只需要5000*500次的操作即可！和直接做50000-point FFT省事多了。注意，由于10ms的频率分辨率是100hz,因此上面的操作就是100hz分辨率，这就可以送给tracking loop了。</li>
-<li>上面只是介绍了直接的实现方法，这个思路一样可以用circular correlation的方法来做，即：后面移位的过程可以在频域做。<strong>到底如何做？有点晕！</strong></li>
-</ul>
-</li>
-<li>Basic concept of fine frequency estimation: 精确的频率估计。如果用1ms来做捕获的话，只能得到1khz的分辨率，这个精度送去tracking不合适，the desired 分辨率应该within a few tens of hertz，因为tracking loop的频率分辨率只有a few hertz。<ul>
-<li>用dft或fft来提高分辨率，显然不合适，比如：用10ms的数据做fft前面已经讨论了，运算量还是很大，而且只能得到100hz的分辨率。</li>
-<li>不用dft和fft，还有没有别的方法呢？肯定是有的：通过相位关系，一旦c/a码stripped off from the input signal, the input becomes a cw signal。也就是计算短时间内的相位变化，然后除以时间就得到这段时间的频率。如下图：<br><img src="http://img.blog.csdn.net/20170221041344629?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>首先$\theta_m(k)$表示在第m秒这1ms内对输入信号（c/a码被stripped off）做fft,最大的频率分量，$\theta_n(k)$表示在第n秒这1ms内对输入信号（c/a码被stripped off）做fft,最大的频率分量。提取这两个频率分量对应的相位值，然后计算相位的变化就是这个多普勒。这样的做法，就可以得到精度更高的频率值。因为直接计算相位，不像之前的是直接计算幅度值。由于相位都是confined within $2\pi$的范围内，而任意两个时间的实际相位变化很可能超过$2\pi$，这就存在相位模糊，即:phase ambiguous. </li>
-<li>书上介绍了很详细如何防止相位模糊的方法，没看太懂。以后再看！(section 7.14!)<h2 id="Ch8-Tracking-GPS-signals"><a href="#Ch8-Tracking-GPS-signals" class="headerlink" title="Ch8: Tracking GPS signals"></a>Ch8: Tracking GPS signals</h2><h3 id="8-1-Introduction"><a href="#8-1-Introduction" class="headerlink" title="8.1 Introduction"></a>8.1 Introduction</h3></li>
-</ul>
-</li>
-<li>跟踪，字面意思，是由于捕获后的信号仍然存在多普勒频域，导致频率有漂移，所以需要继续调整本地的时钟去跟踪接收信号的载频。实际中，本地有一个窄带的滤波器，中心频率是固定的，但会产生一个信号去跟踪输入的信号，每次把本地信号和输入信号通过phase comparator，输出再通过一个窄带滤波器来调整本地产生的信号的频率，所以本质还是一个PLL。由于带宽很窄，所以灵敏度很高；带宽很窄，也就是说更新频率低，很长时间才更新一次。这是我自己理解。</li>
-<li>在tracking的时候，也需要两个track两个量，一个是时域的c/a码，一个是频域的载波频偏，所以需要两个tracking loop: carrier loop, and code loop. 首先，tracking是闭环的操作，相对开环的acquisition, 而且tracking是细调整，acquisition是粗调整。你看，这就是两个层级的操作，把问题分成两个层级，本身就是很科学很高级的方法呀。联想到，内存和硬盘两级存储也是类似。在工程实际中，这样的多级结构，由粗到精的过程简直太美妙了，以后可以总结一下有相似结构的系统设计了。</li>
-<li>本章介绍两中tracking方法，一种是传统的方法，另一种就是BASS(block adjustment of synchronizing signal)块调整同步法。<h3 id="8-2-Basic-Phase-locked-Loops"><a href="#8-2-Basic-Phase-locked-Loops" class="headerlink" title="8.2 Basic Phase-locked Loops"></a>8.2 Basic Phase-locked Loops</h3></li>
-<li>这一节将PLL，这是重点。包括:transfer function, error transfer function, the noise bandwidth, and two types of input signal.</li>
-<li>PLL的主要作用就是来调整时钟产生的频率，让本地的产生的载波和输入信号的载波频率尽可能相等，以便做相关解调，做相关解调的原因是提高解调信噪比。</li>
-<li>下图就是PLL在连续时间上的结构,其主要组成为：phase comparator, 低通滤波，vco，增益控制四部分。<br><img src="http://img.blog.csdn.net/20170221055630889?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>4.用laplace变换是为了计算状态转移。需要复习为啥laplace变换可以这么牛。如下图，$H(s)$就是传递函数，所谓传递函数，就是输出／输入，结果就是系统的传递函数，你看用$H$表示，表示就是系统的冲击响应的laplace变换；$H_e(s)$就是错误传递函数。<br><img src="http://img.blog.csdn.net/20170221060301623?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>为了研究pll的性质，书里采用了两种不同的输入如下图。一种是输入为阶跃函数；另一种为调频信号。<br> <img src="http://img.blog.csdn.net/20170221081424422?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><h3 id="8-3-First-order-PLL"><a href="#8-3-First-order-PLL" class="headerlink" title="8.3 First-order PLL"></a>8.3 First-order PLL</h3></li>
-<li>所谓一阶PLL,主要是只$H(s)$的分母是关于S的一阶函数，上图中，$H(s)$的分母就是$s+k_0k_1F(s)$,因此低通滤波器$F(s)=1$才能保证一阶。如果输入是阶跃函数，则$\theta_i(s)=1/s$,计算误差，这里的误差就是输入值和跟踪值的误差，$\epsilon(s)=\theta_i(s)H_e(s)=\frac{1}{s+k_0k_1}$;同时时域上错误也趋于0；但如果输入是调频信号，则steady-state error就不等于0,这就表示一阶的PLL对调频信号不友好，即：误差同理论上不能趋于0.<h3 id="8-4-Second-order-PLL"><a href="#8-4-Second-order-PLL" class="headerlink" title="8.4 Second-order PLL"></a>8.4 Second-order PLL</h3></li>
-<li>二阶就好理解了，$H(s)$的分母是关于S的二阶函数，所以，$F(s)$就可以等于如下：$$F(s)=\frac{s\tau_2+1}{s\tau_1}$$.这个低通滤波器的好处是，对阶跃输入和调频输入最后的误差都趋于0,这就是很良好的设计。这说明，二阶的PLL可以很好的track frequency-modulated signal，让相位比较器的相位差输出趋于0，正因为这个原因，所以实际中都用二阶来tracking GPS信号。<h3 id="8-5-从连续系统转换到离散系统"><a href="#8-5-从连续系统转换到离散系统" class="headerlink" title="8.5 从连续系统转换到离散系统"></a>8.5 从连续系统转换到离散系统</h3></li>
-<li>连续到离散，那么在频域就是从s域到z域，这个转换，需要一个bilinear transform把s表示成z，即所谓的双线性变换。以后有时间，需要搞清楚不同变换为什么可以映射，不同变换的物理意义！</li>
-<li>换成离散后，PLL结构也要调整一下，比如：vco就变成了dds:直接数字频率合成。<h3 id="8-6-载波和c-a码的tracking"><a href="#8-6-载波和c-a码的tracking" class="headerlink" title="8.6 载波和c/a码的tracking"></a>8.6 载波和c/a码的tracking</h3></li>
-<li>对传统的pll，输入是连续信号或调频信号。所谓传统，就是在模拟域实现的模拟的pll,所以pll用vco来产生所需要的频率，与之对应的数字域就用dds.为了trackGPS信号，需要先把c/a码给removed,所以就需要两个loop，一个跟踪c/a，一个跟踪载波。如下图：</li>
-<li><img src="http://img.blog.csdn.net/20170221085822598?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>上图到底是传统的结构，还是数字的结构啊？先不管，来看两个tracking loop如何交替的工作的。这个工作很有趣：<blockquote>
-<ul>
-<li>首先看c/a code loop,就是上图的偏上面一个loop。，这个loop会产生三个输出：一个early c/a码，一个late c/a码，还有就是prompt c/a码，按照我的叫法就是on-time c/a码。其中，只有最后的prompt码才输出给carrier loop使用。其他的early和late码就是迟早门所需要的，用来调整时间是否对齐用的。所谓early和late码是和prompt码时间上早或晚半个chip的时间长度，我在看书的时候，刚开始以为是相差半个采样周期呢，最后发现是相差半个c/a码的长度，所以如果c/a码的码率是1.023m,那么半个码片就是$\frac{1}{2<em>1.023</em>10^{6}}$,也就是0.489us,而半个采样周期只有100ns.</li>
-<li>在code loop中，一早一晚的c/a码和输入的c/a码做相关，然后分别通过滑动滤波取出高频分量，将相关值的模(平方根)相互比较，得到控制信号，来指示本地产生的prompt c/a码调整的方向，因为根据early和late相关结果就可以计算出来现在prompt的c/a码和输入的c/a码之间的时间差，所以就可以调整位置，缩小这个时间差,具体如何计算的，后面还会讨论。</li>
-<li>现在讨论carrier loop，就在上图偏下位置。这个loop就是用pll来跟踪载波的变化的。首先输入的信号的c/a信息是被removed的，所以进入loop的信号就是载波信号+navigation data,这个信号通过两条途径，一条直接途径，一条是90度相移，输入信号分别和这两条path上的正交的载波相乘，这个载波就是本地的vco根据捕获时得到的载波，相乘起始对相位或频率来说就是做差，因此这个乘法就是做相位比较，听起来很高深，本质就是调制，相乘后差频率就是低频分量需要保留，还有一个求和的频率需要滤波掉，所以相乘后都需要做低通滤波，然后通过一个arctan()比较器，这个arctan()比较器在我目前看来就是求相位是正的还是负，根据相位的正负，就可以产生控制信号去调整vco是增加频率还是降低频率。因此，仍然是一个环。</li>
-<li>现在说说这两个环如何interact。其实是并行的工作，tracking总是在捕获到c/a码的初始相位以及载波的频率后才被启动，而且这两个初始值都会传递给tracking。在上图，去code loop的信号需要remove 载波的影响，因此就用捕获得到的载波来eliminate载波的影响；同样的，去carrier loop的信号需要remove c/a码的影响，因此就用捕获得到的c/a码的来eliminate c/a码的影响，这样就设置好了两个环的初始条件，后边就可以交叉的迭代进行了，并且利用新产生的c/a码和新的载波来remove各自的影响。<br>*说点设计的事。这个先捕获在跟踪的方法，太赞了。前者是粗同步，相当于在缩小解空间，到tracking的时候，就是精同步了，无论是时间还是频率上的，因此利用粗同步的结果，或说在粗同步的基础之上来微调整。我想说的是，一个问题的解决，如果只有一步，或者说只有一个层次，那么就很困难，这里就是两步，也就是两个层次，我们完成信号的同步不是一蹴而就的，而是逐步逼近的，这个思路确实很值得学习，尤其是系统设计。这里面设计的方法论和哲学的意味更需要好好品味！<h3 id="8-7-用PLL来跟踪GPS信号"><a href="#8-7-用PLL来跟踪GPS信号" class="headerlink" title="8.7 用PLL来跟踪GPS信号"></a>8.7 用PLL来跟踪GPS信号</h3><h3 id="8-8-载波频率更新for-BASS-approach-8-8-8-12都在讨论BASS"><a href="#8-8-载波频率更新for-BASS-approach-8-8-8-12都在讨论BASS" class="headerlink" title="8.8 载波频率更新for BASS  approach.(8.8~8.12都在讨论BASS)"></a>8.8 载波频率更新for BASS  approach.(8.8~8.12都在讨论BASS)</h3></li>
-</ul>
-</blockquote>
-</li>
-<li>BASS: block adjustment of synchronization signal.顾名思义，就是考虑相邻block的相位差，也就是说dft是完全从频率域角度计算一个时间段内的信号的频率，得到1khz或更小的分辨率。现在，我们捕获到粗分辨率的信号后，可以用前面的costas锁相环来跟踪，还可以用现在这个基于块同步的方式，也就是利用相邻的数据块的不同相位差值除以时间得到更精确的载波多普勒变化。和用pll最大不同是，不用反馈。下面看具体的操作。</li>
-<li>对每段数据，我们可以用dft的定义来得到频域的值: $$X(k)=\sum_{n=0}^{N-1}x(n)e^{-j2\pi nk/N}$$。现在，假设x(n)是sin信号，那么最大幅度的$|X(k<em>i)|$就对应这个正弦信号的频率。同时我们还可以容易得到正弦信号的初始相位：<br><img src="http://img.blog.csdn.net/20170221144013414?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述">。通常情况下，如果对输入信号完全不知道，那么就需要计算所有的k值(0~N-1),然后比较求最大幅度的值，这就必须借助FFT减少计算次数；如果输入信号的频率知道一些，即：有1khz或100hz左右的分辨率也就是误差啦，这时候，我们就没必要计算所有的k值，完全可以根据目前的频率值(有误差)/频率分辨率=k值，然后直接用dft计算一个$X(k)$值即可找到最大的幅度值的位置。但值得注意的是，我们这里不关心幅度，而是关系相位，也就是说，连续的时间段内，我们用上面的dft的方法都可以得到一个$X(k)$，虽然不同时间段计算出来的$|X(k)|$相同，但是$\theta(k)$肯定不同，这个$\theta(k)$的差值就可以得到更精确的多普勒变化，即：$$f=\frac{\delta\theta}{m}=\frac{\theta</em>{m+n}-\theta_n}{m}$$如下图：<br><img src="http://img.blog.csdn.net/20170221145331779?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>评论一下：这个方法确实绝了。fft只是explore一段时间内频率的分布，但是不同时间段频率的变化就不能容易得到，所以用前后相继的数据块的相位变化就可以得到多普勒的变化，而且精度比fft还高，但这个方法必须是建立在fft基础上，即：首先得有利用fft捕获到粗分辨率的载波。也就是，fft和bass配合使用，而且不需要用反馈，就可以得到高精度的载波。<strong>问题：前面讨论捕获的时候，也提到了用相位之差来做捕获的。</strong>需要再对比！<h3 id="8-9kernal-function-e-j2-pi-nk-N-不连续性"><a href="#8-9kernal-function-e-j2-pi-nk-N-不连续性" class="headerlink" title="8.9kernal function($e^{-j2\pi nk/N}$)不连续性"></a>8.9kernal function($e^{-j2\pi nk/N}$)不连续性</h3></li>
-<li>再把前文的BASS方法理一遍，首先我们知道粗分辨率的载波，然后去反推k，然后计算X(k)，然后得到$\theta(k)$, 然后根据不同时间段的相位，计算相位差，最后用这个相位差除以时间就得到了高分辨率的频率。现在的问题是，由于是知道频率反推k，所以k值就可能是小数。这里我大胆的猜想，在初始的时候，由粗分辨率的载波频率图反推k是整数，但随着不断的调整本地的载波频率，因为BASS可以得到更精确的频率，所以k就越来越不可能是整数，这就导致相位的不连续，如下图：<br><img src="http://img.blog.csdn.net/20170221151126193?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"> 因此需要每次把这个不连续相位给扣除。具体的就不表！<h3 id="8-10-c-a码开头的测量精度问题"><a href="#8-10-c-a码开头的测量精度问题" class="headerlink" title="8.10 c/a码开头的测量精度问题"></a>8.10 c/a码开头的测量精度问题</h3></li>
-<li>采样5mhz, 则每个采样周期是200ns,这就是时间分辨率，所谓时间分辨率，就是最小可以区别的时间。根据这个200ns,我们很容易计算得到gps导航的距离分辨率即使: $200<em>10^{-9}</em>3*10^{8}=60m$, 这个距离分辨率还是太大，不足以计算得到user position。</li>
-<li>如何提高时间精度？这个就需要用dll,迟早门电路，下图：early c/a码是指input的c/a码的开始相位比这个码早；late c/a码是指input的c/a码的开始相位比这个码晚。<br><img src="http://img.blog.csdn.net/20170221154347240?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><blockquote>
-<ul>
-<li>如何调整这个early和late就可以提高时间精度呢？还得继续看下面图。图中，显示的相关函数峰是c/a码自相关函数，当输入的c/a码和本地产生的c/a码完全对齐，产生相关峰值1023,如果有偏移，无论左偏还是右偏，相关值都会变小，注意：由于c/a码的码率是1.023mhz,所以每个chip的长度是977.5ns，因此相关峰的物理意义就是往左移动977.5ns相关峰就为0，往右移动977.5ns也变成0。因此，我们让early和late的c/a码和prompt的c/a码都相乘2个采样周期，即:d=400ns,这样，我们通过同时把三组c/a码和input的c/a码相关得到三个值$y_p,y_e,y_l$，根据这三个值，就可以计算除prompt c/a码和input c/a码之间的时间差，然后移动prompt c/a码去补偿。需要注意的是，移动prompt c/a码，early和late也同时移动了，以方便下一次计算相关值。<br><img src="http://img.blog.csdn.net/20170221154716100?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></li>
-<li>现在可以讨论如何提高时间精度了。如下图:<br><img src="http://img.blog.csdn.net/20170221155636869?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"> 当输入的c/a码开始位置比prompt的开始位置相差大于1/2个采样周期(即：大于100ns)，那么可以如图fig8.10这样调整prompt往前一个采样周期，这样相位相差就小于100ns，也就是说可以把时间分辨率从200ns降低到100ns。为什么不能更小呢？现在举例：如果极限情况下，输入的c/a码是采样输入的，但是采样的位置和真实的位置刚好相差100ns,那么即使如何调整prompt，都是相差100ns.不可能更下的误差了。<h3 id="8-12-用curve-fitting提高时间分辨率"><a href="#8-12-用curve-fitting提高时间分辨率" class="headerlink" title="8.12 用curve fitting提高时间分辨率"></a>8.12 用curve fitting提高时间分辨率</h3>(暂时没看！)<h3 id="8-13-略"><a href="#8-13-略" class="headerlink" title="8.13 略"></a>8.13 略</h3><h3 id="8-14-combining-RF-and-C-A-code-why-没看懂"><a href="#8-14-combining-RF-and-C-A-code-why-没看懂" class="headerlink" title="8.14 combining RF and C/A code,why?没看懂"></a>8.14 combining RF and C/A code,why?没看懂</h3></li>
-</ul>
-</blockquote>
-</li>
-<li>在讲之前，需要解除一个疑惑:从8.8~8.14都在讲BASS,而不是之前的基于反馈loop的方法，这里书上方法说c/a码只产生一次，然后每次只是用输入的c/a码和三个c/a码相关，然后比较大小决定本地产生的c/a码是否需要超前或滞后的移位，但码就是这个码，不变了。所以，简单很多！<h3 id="8-15-tracking长数据"><a href="#8-15-tracking长数据" class="headerlink" title="8.15 tracking长数据"></a>8.15 tracking长数据</h3></li>
-<li>数据如果功率弱，可以用更长的时间来track，例如用20ms,那么就可以得到13db的增益(10log(20/1))。但不能更长了，更长就要处理这段数据里面出现的navigation data transition，复杂度就高了。现在的疑问是，如何找到navigation data transition,如何消除呢？<h3 id="8-16本章总结"><a href="#8-16本章总结" class="headerlink" title="8.16本章总结"></a>8.16本章总结</h3></li>
-<li>本章介绍了两个方法来做tracking.一种是传统的基于loop的方法；另一种是bass,从时域来做。bass确实简单，没有反馈，但是bass在worst case下会由于本地产生的c/a码和接收到的c/a码之间misalignment 100ns(半个采样周期)，从而相关峰值达不到1023这么大，会小一些(918)，所以性能会差大约1dB。</li>
-<li>再比较一下两种在c/a码同步上的区别，结构上都有early and late码，重要的区别是: 传统的方法是没1ms都会出来一个early/late比较结果，根据这个结果来决定prompt往前移动一个码片还是往后移动一个码片；而BASS则会根据early和late相关的具体值，来计算得到prompt code偏移的时间的具体值，由于考虑噪声的影响，所以并不是每1ms就更新，而是通常10 or 20ms计算一个平均值，把这个平均值和门限比较，决定往前还是往后移动。也就是说，BASS没有实时的去更新，所以简单！</li>
-<li>继续。计算出来的prompt code和input code之间的时间的差值，应该很精确，所以这个方法在时间同步上可以精度更高，而传统的做法就是比较相对值，来左右移动，因此精度很小。但另一个角度思考，则是算出的这个相对值没10ms用一次，这10ms中间就可能出现prompt code和input code相差大于100ns的情况，这样导致BASS的相关峰总是比传统的方法得到相关峰小！</li>
-</ol>
+        <p>this is test</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/gps/" data-id="cizgnxrvr000av5eo0zwvudeh" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/02/21/gps/" data-id="cizgo2yxi00025geohi0lu7dn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -253,7 +91,7 @@
   
   
     <a href="/2017/02/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ancien</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -286,7 +124,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -323,7 +161,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
