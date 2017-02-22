@@ -5,12 +5,58 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="##ch1: introduction
+
+卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/02/21/gps/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="##ch1: introduction
+
+卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219054652436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219090813084?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219091308200?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219091143774?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219091508603?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219092320403?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219093423433?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170219093742316?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220051235318?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220051810730?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220071948347?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220072503599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220095844093?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220131503575?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220132344660?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220135930757?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220141119337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220141200463?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220141346028?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220141403182?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220141546792?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220155119879?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220155938517?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170220160910954?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221041344629?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221055630889?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221060301623?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221081424422?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221085822598?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221144013414?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221145331779?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221151126193?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221154347240?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221154716100?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170221155636869?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:updated_time" content="2017-02-21T08:59:51.899Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="##ch1: introduction
+
+卫星数据经射频，中频，adc采样来到数字基带域。卫星导航信号首先经过acquisition(捕获)，tracking(跟踪)，提取帧，提取ephemeris&amp;amp;pseudorange信号，然后计算卫星位置，最后得到user position. 关键是捕获和跟踪。捕获是捕获c/a码的初始相位。跟踪则是跟踪相位，估计频偏，把频偏给补偿到接受信号，提高信噪">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20170219054652436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlucXJzMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +105,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-gps" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-gps" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/02/21/gps/" class="article-date">
   <time datetime="2017-02-22T07:53:21.269Z" itemprop="datePublished">2017-02-21</time>
@@ -204,201 +248,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/21/hello-world/" class="article-date">
-  <time datetime="2017-02-22T07:53:04.497Z" itemprop="datePublished">2017-02-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2017/02/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/hello-world/" data-id="cizgnxezm0007v5eojbngx7wx" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-four-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/21/four-post/" class="article-date">
-  <time datetime="2017-02-22T07:23:19.000Z" itemprop="datePublished">2017-02-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/four-post/">four-post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/four-post/" data-id="cizgnxeze0006v5eoxznsm1am" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-third-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/21/third-post/" class="article-date">
-  <time datetime="2017-02-22T07:14:04.000Z" itemprop="datePublished">2017-02-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/third-post/">third-post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/third-post/" data-id="cizgnxezr0009v5eou7iogdpp" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-first-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/21/first-post/" class="article-date">
-  <time datetime="2017-02-22T06:50:06.000Z" itemprop="datePublished">2017-02-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/first-post/">first-post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>this is for test!</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/first-post/" data-id="cizgnxeyj0005v5eozlbvy7l6" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-second-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/21/second-post/" class="article-date">
-  <time datetime="2017-02-22T06:50:06.000Z" itemprop="datePublished">2017-02-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/21/second-post/">first-post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>this is for test!</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/21/second-post/" data-id="cizgnxezo0008v5eoidsg0ckq" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
